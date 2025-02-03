@@ -13,7 +13,7 @@ const Home = ({navigation}) => {
     let originalData = [];
 
     useEffect(()  => {
-        fetch("https://jsonhost.com/json/2dff47a6cc11de68efec90e62a85c7e2")
+        fetch("https://9b29f9967d7049f8923c4f36d3dd6f62.api.mockbin.io/")
             .then((response) => {
                 return response.json();
             })
